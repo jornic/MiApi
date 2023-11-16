@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "A:\\Web\\ASP\\MVCSQLEjemplo\\MiAPI\\MiAPI\\MiAPI.csproj": {}
+    "C:\\Users\\jordy\\source\\repos\\jornic\\MiApi\\MiAPI\\MiAPI\\MiAPI.csproj": {}
   },
   "projects": {
-    "A:\\Web\\ASP\\MVCSQLEjemplo\\MiAPI\\MiAPI\\MiAPI.csproj": {
+    "C:\\Users\\jordy\\source\\repos\\jornic\\MiApi\\MiAPI\\MiAPI\\MiAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "A:\\Web\\ASP\\MVCSQLEjemplo\\MiAPI\\MiAPI\\MiAPI.csproj",
+        "projectUniqueName": "C:\\Users\\jordy\\source\\repos\\jornic\\MiApi\\MiAPI\\MiAPI\\MiAPI.csproj",
         "projectName": "MiAPI",
-        "projectPath": "A:\\Web\\ASP\\MVCSQLEjemplo\\MiAPI\\MiAPI\\MiAPI.csproj",
+        "projectPath": "C:\\Users\\jordy\\source\\repos\\jornic\\MiApi\\MiAPI\\MiAPI\\MiAPI.csproj",
         "packagesPath": "C:\\Users\\jordy\\.nuget\\packages\\",
-        "outputPath": "A:\\Web\\ASP\\MVCSQLEjemplo\\MiAPI\\MiAPI\\obj\\",
+        "outputPath": "C:\\Users\\jordy\\source\\repos\\jornic\\MiApi\\MiAPI\\MiAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program\\VisualStudio2022\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+6mkdLovBbdw+rmq6qij7Jc98HJS1geMKSInDX+0QSHQyWvcqTQ0o1SEfXIVHmyy8ndfrNy3T28m7MyzYNumNA==",
+  "dgSpecHash": "ZDtIaJ67i+xUATx6Dv8NKMoGlJaaWTjeakbpqDs5spQDWEtWhDCXjjcCC3DJy5mP3C8gOtloHxSqEn9c22J0KQ==",
   "success": true,
-  "projectFilePath": "A:\\Web\\ASP\\MVCSQLEjemplo\\MiAPI\\MiAPI\\MiAPI.csproj",
+  "projectFilePath": "C:\\Users\\jordy\\source\\repos\\jornic\\MiApi\\MiAPI\\MiAPI\\MiAPI.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

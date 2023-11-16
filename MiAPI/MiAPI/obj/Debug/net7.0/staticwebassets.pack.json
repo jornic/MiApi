@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\jordy\\source\\repos\\jornic\\MiApi\\MiAPI\\MiAPI\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\MiAPI.bundle.scp.css",
+      "PackagePath": "staticwebassets\\MiAPI.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\jordy\\source\\repos\\jornic\\MiApi\\MiAPI\\MiAPI\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\jordy\\source\\repos\\jornic\\MiApi\\MiAPI\\MiAPI\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\jordy\\source\\repos\\jornic\\MiApi\\MiAPI\\MiAPI\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.MiAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.MiAPI.props",
+      "PackagePath": "build\\MiAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.MiAPI.props",
+      "PackagePath": "buildMultiTargeting\\MiAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.MiAPI.props",
+      "PackagePath": "buildTransitive\\MiAPI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
