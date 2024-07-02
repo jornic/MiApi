@@ -1,5 +1,3 @@
-# Ignorar archivos y directorios de compilacion
-MiAPI/MiAPI/appsettings.json
 
 # Ignorar Publicaciones
 MiAPI/MiAPI/bin/Debug
