@@ -14,7 +14,10 @@ namespace MiAPI.Controllers
         {
             _personCrud = crud;
         }
-
+        /// <summary>
+        /// El siguiente metodo se encarga de obtener a todos los usuarios de la plataforma.
+        /// </summary>
+        /// <returns>Lista de personas</returns>
         [HttpGet]
         public async Task<List<MPerson>> Get() =>
             await _personCrud.GetAllAsync();

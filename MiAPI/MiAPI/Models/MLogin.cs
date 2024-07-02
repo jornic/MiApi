@@ -1,4 +1,6 @@
-﻿namespace MiAPI.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace MiAPI.Models
 {
     public class MLogin
     {

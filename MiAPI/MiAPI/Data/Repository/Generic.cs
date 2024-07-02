@@ -48,8 +48,17 @@ namespace Clase07.Data.Repository
                         cmd.Parameters.Add(p);
                     }
                     _parameters.Clear();
+                    try
+                    {
+                        return cmd.ExecuteNonQuery();
+                    }
+                    catch (Exception ex)
+                    {
+                        {
+                            return -1;
+                        }
 
-                    return cmd.ExecuteNonQuery();
+                    }
                 }
             }
         }

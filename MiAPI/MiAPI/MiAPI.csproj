@@ -14,4 +14,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.6.2" />
   </ItemGroup>
 
+
+  <PropertyGroup>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);1591</NoWarn>
+    <DocumentationFile>E:\web\ASP\MiApi\MiAPI\MiAPI\Doc\MiAPI.xml</DocumentationFile>  
+  </PropertyGroup>
 </Project>

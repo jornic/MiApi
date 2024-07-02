@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MiAPI</name>
+    </assembly>
+    <members>
+        <member name="M:MiAPI.Controllers.PersonController.Get">
+            <summary>
+            El siguiente metodo se encarga de obtener a todos los usuarios de la plataforma.
+            </summary>
+            <returns>Lista de personas</returns>
+        </member>
+        <member name="M:MiAPI.Controllers.RegisterController.Get(MiAPI.Models.MfirstRegister)">
+            <summary>
+            El método POST del controlador Register permite registrar a un usuario por primera vez.
+            </summary>
+            <param name="mfirstRegister">Se espera un modelo con los atributos: Name, LastName, PhoneNumber, Email, City, Address, User y password</param>
+            <returns>Codigo de estado HTTP</returns>
+        </member>
+    </members>
+</doc>
