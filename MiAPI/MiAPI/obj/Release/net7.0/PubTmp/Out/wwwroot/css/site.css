@@ -1,12 +1,130 @@
-*{
-    margin:0;
-    padding:0;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+:root {
+    --backColor: #1f1f1f;
+    --ContainerViewwidth: 45rem;
+    --ContainerViewHeight:25rem;
+    --VueColor: #38ba8b;
+    --GreenColor: #028320;
+    --btnActive: #0c501c;
+    font-family: "Open sans",sans-serif;
+    font-weight: 100;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--backColor);
+}
+
+.micontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: var(--ContainerViewHeight);
+    width: var(--ContainerViewwidth);
+    color: white;
+    background-color: var(--backColor);
+}
+
+.show::before {
+    content: "";
+    position: absolute;
+    z-index: -4;
+    height: var(--ContainerViewHeight);
+    width: var(--ContainerViewwidth);
+    background: repeating-conic-gradient( from var(--Propiedad), green 0%, blue 25%, red 50%, yellow 75%, green 100% );
+    animation: efecto 4s linear infinite;
+    filter: blur(2rem);
+}
+
+.show::after {
+    content: "";
+    position: absolute;
+    z-index: -2;
+    height: calc(var(--ContainerViewHeight) + 1rem);
+    width: calc(var(--ContainerViewwidth) + 1rem);
+    background: repeating-conic-gradient( from var(--Propiedad), green 0%, blue 25%, red 50%, yellow 75%, green 100% );
+    animation: efecto 4s linear infinite;
+    filter: blur(3px);
+}
+
+.img_lottie{
+    height:150px;
+    width:150px;
+}
+
+.mibtn{
+    padding:.6rem 3rem;
+    background-color:var(--GreenColor);
+    border-radius:18px;
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+}
+
+.mibtn:hover{
+    background-color:var(--VueColor);
+}
+
+.mibtn:active {
+    background-color: var(--btnActive);
+}
+
+@media screen and (max-width: 800px) {
+    .micontainer {
+        padding:1rem;
+        --ContainerViewwidth: 40rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .micontainer {
+        padding: 1rem;
+        --ContainerViewwidth: 35rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .micontainer {
+        padding: 1rem;
+        text-align:center;
+        --ContainerViewwidth: 30rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .micontainer {
+        padding: 1rem;
+        text-align: center;
+        --ContainerViewwidth: 20rem;
+    }
+}
+
+@property --Propiedad {
+    syntax: "<angle>";
+    inherits: false;
+    initial-value: 0deg;
 }
 
 
-body {
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  height:100vh;
+
+@keyframes efecto {
+    from {
+        --Propiedad: 0deg;
+    }
+
+    to {
+        --Propiedad: 360deg;
+    }
 }

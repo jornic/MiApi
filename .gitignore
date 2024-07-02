@@ -1,0 +1,12 @@
+# Ignorar archivos y directorios de compilacion
+MiAPI/MiAPI/appsettings.json
+
+# Ignorar Publicaciones
+MiAPI/MiAPI/bin/Debug
+MiAPI/MiAPI/bin/Release
+MiAPI/MiAPI/obj/Debug
+MiAPI/MiAPI/obj/Release
+
+
+# Ignprar Archivos de FTP
+MiAPI/MiAPI/Properties/PublishProfiles

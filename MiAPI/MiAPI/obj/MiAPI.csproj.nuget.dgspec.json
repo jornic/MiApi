@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jordy\\source\\repos\\jornic\\MiApi\\MiAPI\\MiAPI\\MiAPI.csproj": {}
+    "E:\\web\\ASP\\MiApi\\MiAPI\\MiAPI\\MiAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jordy\\source\\repos\\jornic\\MiApi\\MiAPI\\MiAPI\\MiAPI.csproj": {
+    "E:\\web\\ASP\\MiApi\\MiAPI\\MiAPI\\MiAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jordy\\source\\repos\\jornic\\MiApi\\MiAPI\\MiAPI\\MiAPI.csproj",
+        "projectUniqueName": "E:\\web\\ASP\\MiApi\\MiAPI\\MiAPI\\MiAPI.csproj",
         "projectName": "MiAPI",
-        "projectPath": "C:\\Users\\jordy\\source\\repos\\jornic\\MiApi\\MiAPI\\MiAPI\\MiAPI.csproj",
-        "packagesPath": "C:\\Users\\jordy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jordy\\source\\repos\\jornic\\MiApi\\MiAPI\\MiAPI\\obj\\",
+        "projectPath": "E:\\web\\ASP\\MiApi\\MiAPI\\MiAPI\\MiAPI.csproj",
+        "packagesPath": "C:\\Users\\JMiCo\\.nuget\\packages\\",
+        "outputPath": "E:\\web\\ASP\\MiApi\\MiAPI\\MiAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Program\\VisualStudio2022\\Shared\\NuGetPackages"
+          "D:\\Program\\VS2022\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\jordy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\JMiCo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -27,7 +27,6 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -40,6 +39,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -48,15 +52,15 @@
           "dependencies": {
             "Microsoft.Data.SqlClient": {
               "target": "Package",
-              "version": "[5.1.2, )"
+              "version": "[5.2.1, )"
             },
             "Swashbuckle.AspNetCore.SwaggerGen": {
               "target": "Package",
-              "version": "[6.5.0, )"
+              "version": "[6.6.2, )"
             },
             "Swashbuckle.AspNetCore.SwaggerUI": {
               "target": "Package",
-              "version": "[6.5.0, )"
+              "version": "[6.6.2, )"
             }
           },
           "imports": [
@@ -78,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

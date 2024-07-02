@@ -13,8 +13,8 @@ using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("MiAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+193be538e80817ef8fb25df1c164236a143dd36c")]
 [assembly: System.Reflection.AssemblyProductAttribute("MiAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MiAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
