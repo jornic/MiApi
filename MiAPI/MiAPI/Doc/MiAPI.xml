@@ -10,6 +10,20 @@
             </summary>
             <returns>Lista de personas</returns>
         </member>
+        <member name="M:MiAPI.Controllers.PersonController.GetById(System.Int32)">
+            <summary>
+            El siguiente metodo te permite filtrar persona por su IdPerson.
+            </summary>
+            <param name="id">Valor a buscar</param>
+            <returns>Persona filtrada</returns>
+        </member>
+        <member name="M:MiAPI.Controllers.PersonController.UpdatePerson(MiAPI.Models.MPerson)">
+            <summary>
+            Actualiza la informacion de la persona activa
+            </summary>
+            <param name="person"></param>
+            <returns>Codigo de estado</returns>
+        </member>
         <member name="M:MiAPI.Controllers.RegisterController.Get(MiAPI.Models.MfirstRegister)">
             <summary>
             El método POST del controlador Register permite registrar a un usuario por primera vez.
