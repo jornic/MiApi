@@ -17,6 +17,12 @@
             <param name="id">Valor a buscar</param>
             <returns>Persona filtrada</returns>
         </member>
+        <member name="M:MiAPI.Controllers.PersonController.GetProfile">
+            <summary>
+            El siguiente mentodo permite obtener la informacion del usuario activo.
+            </summary>
+            <returns>Datos de persona activa</returns>
+        </member>
         <member name="M:MiAPI.Controllers.PersonController.UpdatePerson(MiAPI.Models.MPerson)">
             <summary>
             Actualiza la informacion de la persona activa

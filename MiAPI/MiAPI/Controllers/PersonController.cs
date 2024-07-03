@@ -38,6 +38,18 @@ namespace MiAPI.Controllers
         public async Task<IActionResult> GetById(int id) =>
             await _personCrud.GetByIdAsync(id)!=null?Ok(await _personCrud.GetByIdAsync(id)):NotFound();
 
+        
+        /// <summary>
+        /// El siguiente mentodo permite obtener la informacion del usuario activo.
+        /// </summary>
+        /// <returns>Datos de persona activa</returns>
+        [HttpGet]
+        [Route("profile")]
+         public async Task<IActionResult> GetProfile() =>
+            await _personCrud.SelectByName(_authorizationServices.GetUserToken(User))!=null?
+                Ok(await _personCrud.SelectByName(_authorizationServices.GetUserToken(User))):NotFound();
+                
+
         /// <summary>
         /// Actualiza la informacion de la persona activa
         /// </summary>

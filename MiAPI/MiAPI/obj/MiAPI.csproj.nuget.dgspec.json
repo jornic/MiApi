@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\web\\ASP\\MiApi\\MiAPI\\MiAPI\\MiAPI.csproj": {}
+    "E:\\web\\ASP\\MiApi\\miapi\\miapi\\MiAPI.csproj": {}
   },
   "projects": {
-    "E:\\web\\ASP\\MiApi\\MiAPI\\MiAPI\\MiAPI.csproj": {
+    "E:\\web\\ASP\\MiApi\\miapi\\miapi\\MiAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\web\\ASP\\MiApi\\MiAPI\\MiAPI\\MiAPI.csproj",
+        "projectUniqueName": "E:\\web\\ASP\\MiApi\\miapi\\miapi\\MiAPI.csproj",
         "projectName": "MiAPI",
-        "projectPath": "E:\\web\\ASP\\MiApi\\MiAPI\\MiAPI\\MiAPI.csproj",
+        "projectPath": "E:\\web\\ASP\\MiApi\\miapi\\miapi\\MiAPI.csproj",
         "packagesPath": "C:\\Users\\JMiCo\\.nuget\\packages\\",
-        "outputPath": "E:\\web\\ASP\\MiApi\\MiAPI\\MiAPI\\obj\\",
+        "outputPath": "E:\\web\\ASP\\MiApi\\miapi\\miapi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program\\VS2022\\Shared\\NuGetPackages"
